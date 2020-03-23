@@ -15,11 +15,11 @@ place import at top of the file
 parameters:
 TextBox( x-position, y-position ,width, height, instruction text on of input, fontSize, input field color (optional), active input field color (optional),text color)
 
-## 3) call "runTextBox(event)" in the mainloop and pygame.event.get() loop:
+## 3) call "runInputBox(event)" in the mainloop and pygame.event.get() loop:
 
 while running:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       pygame.quit()
-    testTextBox.runTextBox(event)
+    testTextBox.runInputBox(event)
 
