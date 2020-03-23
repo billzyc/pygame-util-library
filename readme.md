@@ -21,5 +21,8 @@ while running:
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       pygame.quit()
-    testTextBox.runInputBox(event)
+    text.runInputBox(event)
 
+## 4) add draw into end of main loop or draw function with window parameter
+
+"text.draw(window)"
