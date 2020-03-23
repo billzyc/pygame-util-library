@@ -48,7 +48,8 @@ class InputBox:
   def updateContent(self, key):
     delete = 8
     if key == delete or key == pygame.K_DELETE or key == pygame.K_BACKSPACE:
-      self.content = self.content[0:-1]
+      if len(self.content) > 0:
+        self.content = self.content[0:-1]
 
     elif key ==pygame.K_RETURN:
       self.isActive = False
