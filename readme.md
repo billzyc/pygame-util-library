@@ -21,11 +21,6 @@ TextBox( x-position, y-position ,width, height, instruction text on of input, fo
 
 ## 3) call "runInputBox(event)" in the mainloop and pygame.event.get() loop:
 
-while running:
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      pygame.quit()
-    text.runInputBox(event)
 
 ## 4) add draw into end of main loop or draw function with window parameter
 
