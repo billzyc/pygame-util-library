@@ -39,7 +39,7 @@ place import at top of the file
 "text = InputBox(40, 100, 200, 50, 'enter text here')"
 
 parameters:
-TextBox( x-position, y-position ,width, height, text, fontSize, fontsize (optional), bgColor (optional), textColor (optional))
+TextBox( x-position, y-position ,width, height, text, fontsize (optional), bgColor (optional), textColor (optional))
 
 ## 3) add draw into end of main loop or draw function with window parameter
 
