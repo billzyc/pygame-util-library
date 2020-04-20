@@ -1,4 +1,3 @@
-
 class ClickButton:
     def __init__(
         self,
